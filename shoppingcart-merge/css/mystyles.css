@@ -21,11 +21,6 @@
 .home-banner-image{
 	margin-top: -2px;
 }
-/*.bx-wrapper .bx-prev {
-
-background: url("images./controls.png") no-repeat scroll 0 -32px rgba(0, 0, 0, 0);
-} */
-
 
 .signup_button {
 	position: absolute;
@@ -75,7 +70,6 @@ background: url("images./controls.png") no-repeat scroll 0 -32px rgba(0, 0, 0, 0
     -webkit-transform: rotate(45deg); /* Chrome, Safari, Opera */
     transform: rotate(45deg);
 }
-
 .checkmark_stem {
    	position: absolute;
     width: 3px;
@@ -84,7 +78,6 @@ background: url("images./controls.png") no-repeat scroll 0 -32px rgba(0, 0, 0, 0
     left: 14px;
     top: 3px;
 }
-
 .checkmark_kick {
     position: absolute;
     width: 7px;
@@ -169,7 +162,6 @@ background: url("images./controls.png") no-repeat scroll 0 -32px rgba(0, 0, 0, 0
 
 }
 
-
 .circle1 {
 	position: absolute;
     margin-top: 15px;
@@ -242,21 +234,6 @@ background: url("images./controls.png") no-repeat scroll 0 -32px rgba(0, 0, 0, 0
     font-size: 19.35px;
     font-family: segoeWPN;
 }
-
-   
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 @media (max-width: 768px) {

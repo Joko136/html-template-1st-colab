@@ -55,7 +55,9 @@
                 </div>
                 <div class="signup_button">
                     <a href="signup-form.html">
-                        <button class="button"><h4 class="signup-input">Sign up now</h4></button>
+                        <button class="button">
+                            <h4 class="signup-input">Sign up now</h4>
+                        </button>
                         <div class="circle">
                             <span class="checkmark">
                                 <div class="checkmark_stem"></div>
@@ -114,20 +116,25 @@
                         </div>
                         <div class="general-section-description-container">
                             <div class="general-section-hightlights">Some Bullet text here</div>
-                            <div class="general-section-description"><p class="general-section-description-insights">Lorem Ipsum is simply dummy text of the printing and typesetting
+                            <div class="general-section-description">
+                            <p class="general-section-description-insights">
+                                Lorem Ipsum is simply dummy text of the printing and typesetting
                                 Lorem Ipsum has been the industry's standard dummy text ever
                                 When an unknown printer took a galley of type and scrambled
                                 It to make a type specimen book. It has survived not only five centuries
                                 But also the leap into electronic typesetting,
                                 Remaining essentially unchanged. It was popularised
-                            The release of Letraset sheets containing Lorem Ipsum passages</p>
+                                The release of Letraset sheets containing Lorem Ipsum passages
+                            </p>
                         </div>
                     </div>
                 </div>
             </section>
             </div> <!-- END .container -->
             <footer class="footer">
-                <p class="home-footer-copyright">Copyright © 2012-2013 cssauthor.com</p>
+                <p class="home-footer-copyright">
+                    Copyright © 2012-2013 cssauthor.com
+                </p>
             </footer>
             
             <script src="js/jquery-3.1.1.min.js"></script>
@@ -137,11 +144,12 @@
             </script>
             <script>
             'use strict';
-            function toggleNav(context) {
-            var navigationContent = document.getElementById('header-nav-toggle');
-            var navigationContentClasses = navigationContent.className.split(" ");
-            if (navigationContentClasses.indexOf('state--visible') > -1) {
-            navigationContent.className = navigationContentClasses[0];
+            function toggleNav(context) 
+            {
+                        var navigationContent = document.getElementById('header-nav-toggle');
+                        var navigationContentClasses = navigationContent.className.split(" ");
+                        if (navigationContentClasses.indexOf('state--visible') > -1) {
+                        navigationContent.className = navigationContentClasses[0];
             } else {
             navigationContent.className += " state--visible";
             }
